@@ -16,7 +16,7 @@ Assert.assertTrue(title.contains("Demo Guru99 Page"));
 @BeforeTest
 public void beforeTest() {
 System.setProperty("webdriver.chrome.driver",
-"C:\\Users\\Admin\\Desktop\\Jenkins\\chromedriver.exe");
+"/Users/sohamshetye/Downloads/chromedriver_mac_arm64");
 driver = new ChromeDriver();
 }
 @AfterTest
